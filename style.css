@@ -1,0 +1,30 @@
+body{
+    background-color: grey;
+    margin:20px;
+}
+.container{
+    max-width: 760px;
+    margin: auto;
+    border: 3px solid white;
+    background: white;
+}
+img{
+    width: 100%;
+}
+.subimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+
+}
+.fade-In{
+    animation: fadein 0.6s ease-in forwards;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
